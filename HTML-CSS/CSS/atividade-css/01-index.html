@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Ingressos RBD</title>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width-device-width, initial-scale-1" />
+    <link rel="stylesheet" href="./style.css" />
+  </head>
+
+  <body>
+    <section class="corpo">
+      <header class="header">
+        <img class="img-header" src="./rbd-header.png" alt="Header RBD" />
+        <nav class="nav">
+          <a href="./01-index.html">Comprar ingressos |</a>
+          <a href="./02-posters.html">Posters |</a>
+          <a href="./03-sobre.html">Sobre</a>
+        </nav>
+      </header>
+      <hr />
+      <section>
+        <h1>Comprar ingressos RBD</h1>
+      </section>
+      <br />
+      <section>
+        <form class="section-form">
+          <div class="form">
+            <label for="name">Nome: </label>
+            <input type="text" id="name" name="name" required />
+            <label for="tel">- Telefone: </label>
+            <input type="text" id="tel" name="tel" required />
+          </div>
+          <br />
+          <div class="form">
+            <label for="cpf">CPF: </label>
+            <input type="text" id="cpf" name="cpf" required />
+            <label for="rg">- RG:</label>
+            <input type="text" id="rg" name="rg" />
+          </div>
+          <br />
+          <div class="form">
+            <label for="adress">Endereço:</label>
+            <input type="text" id="adress" name="adress" required />
+            <label for="number">- Nº:</label>
+            <input type="text" id="number" name="number" />
+          </div>
+          <br />
+          <div class="form">
+            <label for="quant">Quantidade de ingressos:</label>
+            <input type="number" id="quant" name="quant" min="0" max="5" />
+            <label for="pay">- Forma de pagamento: </label>
+            <select id="pay" name="pay">
+              <option value="escolha">Escolha</option>
+              <option value="cartao-credito">Cartão de crédito</option>
+              <option value="cartao-debito">Cartão de débito</option>
+              <option value="pix">Pix</option>
+              <option value="boleto">Boleto</option>
+            </select>
+          </div>
+          <br />
+          <div class="form">
+            <label for="date-show">Data e local do show:</label>
+            <input
+              type="search"
+              id="date-show"
+              name="date-local"
+              list="date-locals"
+            />
+            <datalist id="date-locals">
+              <option value="27/09/23 - SP"></option>
+              <option value="28/09/23 - SP"></option>
+              <option value="29/09/23 - SP"></option>
+              <option value="30/09/23 - SP"></option>
+              <option value="02/10/23 - RJ"></option>
+              <option value="03/10/23 - RJ"></option>
+              <option value="04/10/23 - RJ"></option>
+              <option value="05/10/23 - RJ"></option>
+            </datalist>
+          </div>
+          <br /><br />
+          <div>
+            <input class="bt-comprar" type="submit" value="COMPRAR" />
+          </div>
+        </form>
+      </section>
+      <footer>
+        <p>Site oficial da banda RBD</p>
+      </footer>
+    </section>
+  </body>
+</html>

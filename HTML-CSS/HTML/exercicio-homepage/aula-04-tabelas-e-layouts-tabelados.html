@@ -1,0 +1,86 @@
+<!DOCTYPE html> <!--informa para o navegador qual a versao html utilizada-->
+<html lang="pt-br"> <!--lang é um atributo de idioma -->
+    
+    <head> 
+        <meta charset="utf-8"/> <!--padrão de acentos e caracteres especiais na America Latina -->
+        <title>Tabelas</title>
+    </head>
+    
+    <body>
+        <h1>Tabelas</h1>
+        <table border="1" width="100%">
+            <thead> 
+                <tr> <!--definir a linha do cabeçalho como boa prática de código -->               
+                    <th>Coluna 1</th>
+                    <th>Coluna 2</th>
+                    <th>Coluna 3</th>
+                </tr>
+                <td colspan="3">Descrição da tabela</td>
+
+            </thead>
+            <tbody align="center">
+                 <tr>
+                    <td>1A</td>
+                    <td>1B</td>
+                    <td>1C</td>
+                </tr>
+                <tr>
+                    <td>2A</td>
+                    <td>2B</td>
+                    <td>2C</td>
+                </tr>
+                <tr>
+                    <td>3A</td>
+                    <td>3B</td>
+                    <td>3C</td>
+                </tr>
+            </tbody>
+            <tfoot>
+                <tr>
+                    <td colspan="3">Rodapé da tabela</td>
+                </tr>
+            </tfoot>
+           
+        </table>
+        
+        <h2>Tabela como layout</h2>
+        <table width="600">
+            <tr height="90">
+                <td colspan="4" bgcolor="BBCCEE" align="center">Cabeçalho</td>
+            </tr>
+            <tr height="300">
+                <td width="20" bgcolor="0000FF"></td>
+                <td width="50%" bgcolor="EEEEEE">
+                    <h2> Receita de Bolo de Chocolate</h2>
+                        <p> 
+                        <ul>
+                            <li>4 ovos</li>
+                            <li>1 xícara de açúcar</li>
+                            <li>1/4 xícara de óleo</li>
+                            <li>3 xícaras de trigo</li>
+                            <li>1 xícara de leite</li>
+                            <li>1 xícara de chocolate em pó</li>
+                            <li>1 colher de sopa de fermento em pó</li>
+                        </ul>
+                        </p>
+                </td>
+                <td width="50%" bgcolor="DDDDDD">
+                    <h2>Cobertura</h2>
+                        <p>
+                            <ul>
+                                <li>1 lata de leite condensado</li>
+                                <li>1 xícara de chocolate em pó</li>
+                                <li>1/8 xícara de leite</li>
+                                <li>1 colher de manteiga</li>
+                            </ul>
+                        </p>
+                </td>
+                <td width="20" bgcolor="0000FF"></td>
+            </tr>
+            <tr>
+                <td colspan="4"bgcolor="FF0000" align="center">Rodapé</td>
+            </tr>
+        </table>
+    </body>
+    
+</html>

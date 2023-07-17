@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html>
+    <head> <!--cabeçalho do documento que passa informações para o navegador-->
+        <title>HTML-Formulario Fale Conosco</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width-device-width, initial-scale-1">
+    </head>
+    <body>
+        <header> <!--cabeçalho da página-->
+            <h2>Curso front-end HTML</h2>
+        </header>
+        
+        <section>    
+            <article> <!-- o ideal é que toda página tenha apenas um título h1, mas essa regra pode ser quebrada se usar dentro do article-->
+                <h1>Contato</h1>
+                <p>Preencha os campos abaixo</p>
+                
+                <form method="post"> <!-- por padrão não usamos o método get para formularios -->
+                    
+                    <div> <!--além da div separar cada tipo de elemento, também possui a aquebra de linha automatica-->
+                        <label for="nome">Nome</label><br>
+                        <input type="text" name="nome" id="nome" placeholder="Digite seu nome"> <!-- esse id não pode ser repetido na página -->
+                    </div>
+                    
+                    <div>
+                        <label for="email">Email</label><br>
+                        <input type="email" name="email" id="email" placeholder="Digite seu e-mail">
+                    </div>
+                    
+                    <div>
+                        <label for="mensagem">Mensagem</label><br>
+                        <textarea name="mensagem" id="mensagem" rows="5"></textarea>
+                    </div>
+                    
+                    <div>
+                        <input type="submit">
+                    </div>
+                    
+                    <div>
+                        <p>
+                            <label for="linguagens">Qual linguagem você prefere?</label>
+                            <input type="radio" name="linguagens" value="html"> HTML
+                            <input type="radio" name="linguagens" value="css"> CSS
+                            <input type="radio" name="linguagens" value="javascript"> Javascript
+                        </p>
+                     </div>
+                    
+                     <div>
+                        <p>
+                            <label for="linguagens">Qual linguagem você sabe?</label>
+                            <input type="checkbox" name="linguagens"> HTML
+                            <input type="checkbox" name="linguagens"> CSS
+                            <input type="checkbox" name="linguagens"> Javascript
+                        </p>
+                     </div>
+                    
+                    <div>
+                        <label>Qual a sua cor favorita?</label>
+                        <select>
+                            <option value="rosa">Rosa</option>
+                            <option value="azul">Azul</option>
+                            <option value="branco">Branco</option>
+                            <option value="preto">Preto</option>
+                            <option value="lilas">Lilás</option>
+                        </select>
+                    </div>
+                </form>
+                
+            </article>
+ 
+        </section>
+        
+        <footer>Desenvolvido por Patrícia Elis</footer>
+        
+    </body>
+</html>

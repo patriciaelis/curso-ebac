@@ -1,0 +1,152 @@
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  background-color: #f3eadf;
+  width: 100%;
+  height: 800px;
+  margin: 0;
+  padding: 0;
+}
+.container {
+  padding: 50px;
+}
+div {
+  margin-left: auto;
+  margin-right: auto;
+  width: 600px;
+  height: 600px;
+  background-color: #e7d6c4;
+  box-shadow: 5px 5px 20px #9a9999;
+  border-radius: 20px;
+}
+nav {
+  text-align: center;
+  line-height: 1.5;
+  float: left;
+  background-color: #caa287;
+  height: 600px;
+  width: 120px;
+  border-radius: 20px;
+}
+nav img {
+  width: 120px;
+  height: 120px;
+  border-top-left-radius: 20px;
+  border-top-right-radius: 20px;
+}
+nav a {
+  color: #ffffff;
+}
+nav a:hover {
+  color: #6c83e6;
+}
+.initial header {
+  padding: 15px;
+  text-align: center;
+}
+.order {
+  padding: 10px;
+  text-align: center;
+}
+.initial {
+  text-align: center;
+}
+section div p > a {
+  font-size: 16px;
+}
+
+.img-1,
+.img-2,
+.img-3,
+.img-4,
+.img-5,
+.img-6 {
+  width: 120px;
+  height: 120px;
+  border-radius: 5px;
+}
+.cadastro > header {
+  padding: 15px;
+  text-align: center;
+}
+
+.cadastro form > label {
+  padding-left: 10px;
+}
+form {
+  margin-top: 30px;
+  text-align: center;
+}
+.bt-cadastrar {
+  border-radius: 20px;
+  padding: 10px;
+  width: 150px;
+  font-size: 16px;
+  font-weight: 600;
+  color: #ffffff;
+  background-color: #64432f;
+}
+.menu > header {
+  padding: 15px;
+  text-align: center;
+}
+.menu > table {
+  margin-top: 30px;
+  margin-left: auto;
+  margin-right: auto;
+  border: 2px #64432f solid;
+  border-collapse: collapse;
+}
+.menu table thead tr > th {
+  text-align: center;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  width: 144px;
+  background-color: #64432f;
+  color: #ffffff;
+}
+.menu table tbody tr > td {
+  text-align: center;
+  width: 144px;
+}
+.menu table thead tr th:first-child {
+  text-align: left;
+}
+.menu table tbody tr td:first-child {
+  text-align: left;
+}
+.menu table tbody tr:hover {
+  background-color: rgba(79, 44, 20, 0.1);
+}
+.bt-pedido {
+  float: right;
+  border-radius: 20px;
+  padding: 5px;
+  width: 150px;
+  font-size: 12px;
+  font-weight: 600;
+  color: #ffffff;
+  background-color: #64432f;
+  margin-right: 30px;
+}
+.sobre header {
+  padding: 15px;
+  text-align: center;
+}
+.sobre section {
+  text-align: justify;
+  margin-left: 150px;
+  margin-right: 30px;
+}
+
+/* Tablet 720px */
+@media (max-width: 700px) {
+  div {
+    width: 100%;
+  }
+  nav {
+    float: ;
+  }
+}
+
+/* Smartphone 320px */
+@media (max-width: );

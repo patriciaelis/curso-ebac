@@ -1,0 +1,48 @@
+* {
+  margin: 0px;
+  padding: 0px;
+}
+html {
+  font-family: Arial, Helvetica, sans-serif;
+}
+body {
+  color: white;
+  height: 100%; /*100vh = 100% vh = view height*/
+  background-color: hotpink;
+  overflow: overlay;
+  /*overflow: hidden; Esconde as áreas que ultrapassarem*/
+}
+h1,
+h2,
+p {
+  margin-bottom: 20px;
+}
+div {
+  padding: 20px 0;
+  margin: 0px;
+  color: black;
+}
+
+.width-100 {
+  width: 100%;
+  width: 100vw;
+  background-color: aquamarine;
+  padding: 20px 0px;
+  height: 400px;
+  /*box-sizing: border-box; /* considera o padding e a borda na largura e altura*/
+}
+nav {
+  background-color: lightskyblue;
+  width: 20%;
+  float: left;
+  display: table;
+  height: 100%;
+}
+article {
+  background-color: bisque;
+  width: 80%;
+  float: left;
+  display: table;
+  height: 100%;
+  box-sizing: border-box;
+}

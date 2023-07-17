@@ -1,0 +1,41 @@
+table {
+  background-color: ffffff;
+  width: 70%;
+  border: #757575 2px solid;
+  border-collapse: collapse;
+}
+table tr {
+  border: #757575 1px solid;
+}
+table tbody tr:hover {
+  background-color: rgba(141, 145, 233, 0.5);
+
+  /*
+  Para deixar a tabela zebrada: nth-child(even) - para linhas pares ou odd para linhas impares
+  */
+}
+table th {
+  background-color: #16148b;
+  color: #ffffff;
+  font-weight: 600;
+  padding: 10px;
+  text-align: left;
+}
+table td {
+  padding: 10px;
+}
+
+tfoot {
+  background-color: #eeeeee;
+  font-weight: 600;
+}
+
+table tr td:first-child {
+  font-weight: 600;
+  text-align: left;
+}
+
+table tr,
+td {
+  text-align: right;
+}
