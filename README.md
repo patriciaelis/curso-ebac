@@ -26,6 +26,7 @@ Informação de alteração
 - Após testado todo seu código
 - Primeiro usa o git add \*
 - Depois usa o git commit -m "Mensagem"
+- Para enviar alterações para o repositório usar o git push
 
 ## Git Flow
 
