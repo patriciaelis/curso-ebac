@@ -27,6 +27,7 @@ Informação de alteração
 - Primeiro usa o git add \*
 - Depois usa o git commit -m "Mensagem"
 - Para enviar alterações para o repositório usar o git push
+- Para trazer alterações do repositório para a minha máquina usar p git pull
 
 ## Git Flow
 
